@@ -32,7 +32,7 @@ body {
 }
 
 .mainDisplayer {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,7 +174,7 @@ body {
 }
 
 .OFF {
-  background-color: #000e07;
+  background-color: var(--black-digit);
 }
 
 @media screen and (orientation: portrait) and (max-width: 960px) {

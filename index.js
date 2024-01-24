@@ -24,6 +24,7 @@ const getDigitTargets = function () {
   const digits = [];
   const allDigits = document.getElementsByClassName('value');
   const bullets = document.getElementsByClassName('momentBullet');
+
   for (let i = 0; i < allDigits.length - 1; i++) {
     if (!allDigits[i].classList.contains('ghost')) {
       digits.push(allDigits[i]);
@@ -65,7 +66,7 @@ const getDateValues = function () {
   } else {
     AM = true;
   }
-  hours = addZero(hours);
+  hours = addZero(hours).toString();
 
   const minutes = addZero(currentDate.getMinutes()).toString();
 
@@ -77,6 +78,7 @@ const getDateValues = function () {
 
 const parseDate = function (datas) {
   const formatted = [];
+
   datas.forEach((data) => {
     for (let i = 0; i < data.length; i++) {
       formatted.push(data.substring(i, i + 1));
