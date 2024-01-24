@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="mainDisplayer">
+      <div class="displayers">
+        <div id="month" class="dateItem">
+          <span class="sticker">MONTH</span>
+          <div class="display" id="monthDisplayer">
+            <div class="digit">
+              <span class="value"></span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+            </div>
+          </div>
+        </div>
+        <div id="day" class="dateItem">
+          <span class="sticker">DAY</span>
+          <div class="display">
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+          </div>
+        </div>
+        <div id="year" class="dateItem">
+          <span class="sticker">YEAR</span>
+          <div class="display">
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+          </div>
+        </div>
+        <div id="moment">
+          <span class="sticker">AM</span>
+          <span class="bullet AM momentBullet"></span>
+          <span class="sticker">PM</span>
+          <span class="bullet PM momentBullet"></span>
+        </div>
+        <div id="hour" class="dateItem">
+          <span class="sticker">HOUR</span>
+          <div class="display">
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="bullets" class="digit">
+          <span class="bullet blink ON"></span>
+          <span class="bullet blink ON"></span>
+        </div>
+        <div id="minute" class="dateItem">
+          <span class="sticker">MIN</span>
+          <div class="display">
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+            <div class="digit">
+              <span class="value"></span>
+              <span class="value ghost">8</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="sticker describer">PRESENT TIME</span>
+    </div>
+    <script src="index.js" type="module"></script>
+    <script src="date.js" type="module"></script>
+  </body>
+</html>
