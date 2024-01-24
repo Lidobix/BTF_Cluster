@@ -97,6 +97,7 @@ body {
 
 .display {
   display: flex;
+  border: 1px inset grey;
 }
 
 .digit {
@@ -126,7 +127,7 @@ body {
 
 .ghost {
   position: absolute;
-  color: rgba(36, 224, 45, 0.2);
+  color: rgba(36, 224, 45, 0.17);
 }
 
 #bullets {
