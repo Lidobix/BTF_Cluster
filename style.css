@@ -32,7 +32,6 @@ body {
 }
 
 .mainDisplayer {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +41,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(assets/images/wall.jpg);
   background-size: cover;
-  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  padding: 0.45rem 0.7rem 0.25rem 0.7rem;
 }
 
 .displayers {
@@ -76,7 +75,7 @@ body {
   font-size: 0.58rem;
   color: var(--grey-sticker);
   padding: 0 0.5rem 0 0.5rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
   background-color: var(--red-sticker);
   letter-spacing: 0.1rem;
 }
@@ -90,7 +89,7 @@ body {
 .describer {
   background-color: black;
   font-size: 0.75rem;
-  margin-top: 0.35rem;
+  margin-top: 0.22rem;
   margin-bottom: 0;
   padding-top: 0.1rem;
 }
